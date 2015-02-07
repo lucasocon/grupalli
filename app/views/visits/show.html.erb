@@ -1,0 +1,48 @@
+<div class="container">
+  <p id="notice"><%= notice %></p>
+
+  <p>
+    <h3>
+      <strong>Usuario:</strong>
+    </h3>
+    <%= @visit.usuario %>
+  </p>
+
+  <p>
+    <h3>
+      <strong>Fecha:</strong>
+    </h3>
+    <%= @visit.fecha.strftime('%F') %>
+  </p>
+
+  <p>
+    <h3>
+      <strong>Hora:</strong>
+    </h3>
+    <%= @visit.hora.strftime("%H:%M:%S") %>
+  </p>
+
+  <p>
+    <h3>
+      <strong>Latitude:</strong>
+    </h3>
+    <%= @visit.latitude %>
+  </p>
+
+  <p>
+    <h3>
+      <strong>Longitude:</strong>
+    </h3>
+    <%= @visit.longitude %>
+  </p>
+
+  <p>
+  <h3>
+    <strong>Comentario:</strong>
+  </h3>
+  <%= @visit.comentario %>
+  </p>
+
+  <%= link_to 'Edit', edit_visit_path(@visit), class: "btn btn-default" %>
+  <%= link_to 'Back', visits_path, class: "btn btn-default" %>
+</div>

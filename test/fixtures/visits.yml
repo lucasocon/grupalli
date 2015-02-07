@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  usuario: MyString
+  fecha: 2015-02-02 23:36:37
+  hora: 2015-02-02 23:36:37
+  latitude: 1.5
+  longitude: 1.5
+  comentario: MyText
+
+two:
+  usuario: MyString
+  fecha: 2015-02-02 23:36:37
+  hora: 2015-02-02 23:36:37
+  latitude: 1.5
+  longitude: 1.5
+  comentario: MyText
