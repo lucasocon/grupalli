@@ -6,6 +6,7 @@
     <table class="table">
       <thead>
         <tr>
+          <th>IMEI</th>
           <th>Usuario</th>
           <th>Fecha</th>
           <th>Hora</th>
@@ -19,6 +20,7 @@
       <tbody>
         <% @visits.each do |visit| %>
           <tr>
+            <td><%= visit.imei %></td>
             <td><%= visit.usuario %></td>
             <td><%= visit.fecha.strftime('%F') %></td>
             <td><%= visit.hora.strftime("%H:%M:%S") %></td>

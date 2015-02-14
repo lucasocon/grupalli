@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150203023637) do
+ActiveRecord::Schema.define(version: 20150214044406) do
 
   create_table "visits", force: true do |t|
     t.string   "usuario"
@@ -22,6 +22,7 @@ ActiveRecord::Schema.define(version: 20150203023637) do
     t.text     "comentario"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "imei"
   end
 
 end
