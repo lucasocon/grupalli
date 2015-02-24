@@ -7,6 +7,9 @@ gem 'bootstrap-sass'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
+gem "paperclip-dropbox", ">= 1.1.7"
+
+
 group :development do
   gem 'sqlite3'
   gem 'better_errors'
