@@ -50,6 +50,13 @@
   <%= @visit.comentario %>
   </p>
 
+  <p>
+  <h3>
+    <strong>Foto:</strong>
+  </h3>
+  <%= image_tag @visit.image.url %>
+  </p>
+
   <%= link_to 'Edit', edit_visit_path(@visit), class: "btn btn-default" %>
   <%= link_to 'Back', visits_path, class: "btn btn-default" %>
 </div>
