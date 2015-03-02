@@ -70,6 +70,6 @@ class VisitsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def visit_params
-      params.require(:visit).permit(:usuario, :fecha, :hora, :latitude, :longitude, :comentario, :imei, :image)
+      params.require(:visit).permit(:usuario, :fecha, :hora, :latitude, :longitude, :comentario, :imei, :image, :empresa, :contacto, :cargo, :rubro, :email, :telefono, :celular)
     end
 end
