@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150302042929) do
+ActiveRecord::Schema.define(version: 20150306103418) do
 
   create_table "visits", force: true do |t|
     t.string   "usuario"
@@ -34,6 +34,7 @@ ActiveRecord::Schema.define(version: 20150302042929) do
     t.string   "email"
     t.integer  "telefono"
     t.integer  "celular"
+    t.integer  "id_empresa"
   end
 
 end
